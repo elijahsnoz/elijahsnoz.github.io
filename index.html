@@ -4,7 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elijah Snoz - Official Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('Snoz.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        section {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            margin: 20px;
+            border-radius: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        iframe {
+            border: none;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            section {
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,7 +64,12 @@
     <section id="music">
         <h2>Music</h2>
         <p>Check out my latest tracks on Spotify:</p>
-        <iframe src="https://open.spotify.com/embed/artist/4Jm2suTmDxkMAs1QvieECb" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe src="https://open.spotify.com/embed/artist/4Jm2suTmDxkMAs1QvieECb" width="300" height="380" allowtransparency="true" allow="encrypted-media"></iframe>
+    </section>
+    <section id="thriller">
+        <h2>Upcoming Album</h2>
+        <p>Watch the thriller video for my upcoming album:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k2v40nId5P8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <section id="social-media">
         <h2>Social Media</h2>
@@ -30,6 +81,9 @@
             <li><a href="https://soundcloud.com/elijahsnoz" target="_blank">SoundCloud</a></li>
             <li><a href="https://www.youtube.com/c/ELIJAHSNOZ" target="_blank">YouTube</a></li>
         </ul>
+    </section>
+    <section id="alx">
+        <h2>Abuja Nigeria</h2>
     </section>
     <footer>
         <p>&copy; 2024 Elijah Snoz. All rights reserved.</p>
